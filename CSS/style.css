@@ -116,6 +116,9 @@ header .container .header_logo a {
   text-transform: capitalize;
   color: #fff;
 }
+header .container .header_logo a:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
 @media screen and (max-width: 992px) {
   header .container .header_nav .navbar {
     position: absolute;
@@ -794,7 +797,7 @@ footer .container .footer_top {
   margin-bottom: 118px;
 }
 footer .container .footer_top .footer_top_left a {
-  display: block;
+  display: inline-flex;
   font-family: "gilroy-bolduploaded_file";
   font-weight: 400;
   font-size: 28px;
@@ -802,6 +805,11 @@ footer .container .footer_top .footer_top_left a {
   text-transform: capitalize;
   color: #1e1e1e;
   margin-bottom: 30px;
+  transition: 0.3s;
+}
+footer .container .footer_top .footer_top_left a:hover {
+  color: white;
+  text-shadow: 0 0 1px #000, 0 0 10px grey;
 }
 footer .container .footer_top .footer_top_left p {
   font-family: "gilroy-mediumuploaded_file";
@@ -818,8 +826,6 @@ footer .container .footer_top ul li {
 }
 footer .container .footer_top ul li:first-of-type {
   margin-bottom: 20px;
-}
-footer .container .footer_top ul li:first-of-type a {
   font-family: "gilroy-regularuploaded_file";
   font-weight: 400;
   font-size: 17px;
@@ -885,4 +891,7 @@ footer .container .footer_bottom a {
 }
 footer .container .footer_bottom a:first-of-type {
   margin-right: 40px;
+}
+footer .container .footer_bottom a:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }

@@ -192,6 +192,10 @@ header{
         letter-spacing: 0.01em;
         text-transform: capitalize;
         color: #fff;
+        &:hover{
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+        }
+
       }
     }
 
@@ -979,7 +983,7 @@ footer{
 
       .footer_top_left{
         a{
-          display: block;
+          display: inline-flex;
           font-family: $font_family_bold_1;
           font-weight: 400;
           font-size: 28px;
@@ -987,6 +991,12 @@ footer{
           text-transform: capitalize;
           color: #1e1e1e;
           margin-bottom: 30px;
+          transition: 0.3s;
+          &:hover{
+            color: white;
+            text-shadow:0 0 1px #000, 0 0 10px grey;
+
+          }
         }
         p{
           font-family: $font_family_medium_1;
@@ -1005,13 +1015,11 @@ footer{
           margin-bottom: 16px;
           &:first-of-type{
             margin-bottom: 20px;
-            a{
-              font-family: $font_family_regular_1;
-              font-weight: 400;
-              font-size: 17px;
-              letter-spacing: -0.01em;
-              color: #f6973f;
-            }
+            font-family: $font_family_regular_1;
+            font-weight: 400;
+            font-size: 17px;
+            letter-spacing: -0.01em;
+            color: #f6973f;
           }
           a{
             font-family: $font_family_medium_1;
@@ -1091,9 +1099,11 @@ footer{
         line-height: 160%;
         color: #1e1e1e;
         opacity: 0.8;
-        //margin-right: 40px;
         &:first-of-type{
           margin-right: 40px;
+        }
+        &:hover{
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff;
         }
       }
     }
