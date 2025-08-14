@@ -270,10 +270,11 @@ header{
             margin: 0;
 
             .dropdown-menu{
+              height: auto;
               @include max-screen(992px) {
                 position: static;
               }
-              height: auto;
+              
               .dropdown-item{
                 @include max-screen(992px){
                   padding: 10px 50px;
@@ -308,7 +309,7 @@ header{
         width: 20px;
         height: 26px;
         border-radius: 100%;
-        top:50%;
+
         right:-7px;
         color: white;
       }
@@ -1112,6 +1113,12 @@ footer{
 
 
 
+.random{
+
+  width: 100px;
+  height: 100px;
+background-color: green
+}
 
 
 
@@ -1120,15 +1127,17 @@ footer{
 
 
 
-//.carousel-inner{
+
+
+// .carousel-inner{
 //  max-height: 100vh;
-//}
-//
-//.carousel-indicators [data-bs-target] {
+// }
+
+// .carousel-indicators [data-bs-target] {
 //  background-color: #fff;
 //  opacity: 1;
-//}
-//
-//.carousel-indicators .active {
+// }
+
+// .carousel-indicators .active {
 //  background-color: grey;
-//}
+// }

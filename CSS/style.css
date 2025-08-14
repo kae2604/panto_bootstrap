@@ -222,7 +222,6 @@ header .container .header_basket span {
   width: 20px;
   height: 26px;
   border-radius: 100%;
-  top: 50%;
   right: -7px;
   color: white;
 }
@@ -895,3 +894,11 @@ footer .container .footer_bottom a:first-of-type {
 footer .container .footer_bottom a:hover {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
 }
+
+.random {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 255, 68);
+}
+
+/*# sourceMappingURL=style.css.map */
