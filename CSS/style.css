@@ -896,9 +896,9 @@ footer .container .footer_bottom a:hover {
 }
 
 .random {
+  background-color: red;
   width: 100px;
   height: 100px;
-  background-color: rgb(0, 255, 68);
 }
 
 /*# sourceMappingURL=style.css.map */
